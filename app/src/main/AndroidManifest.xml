@@ -19,6 +19,7 @@
         android:launchMode="singleTop"
         android:theme="@style/AppTheme.NoActionBar">
 
+
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>
         <action android:name="android.intent.action.SEARCH"/>
@@ -37,6 +38,7 @@
 
     <receiver
         android:name="androidx.media.session.MediaButtonReceiver" >
+
       <intent-filter>
         <action android:name="android.intent.action.MEDIA_BUTTON" />
       </intent-filter>

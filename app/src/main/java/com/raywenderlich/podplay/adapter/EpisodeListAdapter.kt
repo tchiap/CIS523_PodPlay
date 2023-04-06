@@ -1,4 +1,3 @@
-
 package com.raywenderlich.podplay.adapter
 
 import android.view.ViewGroup
